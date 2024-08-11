@@ -20,7 +20,6 @@ export const UpdateTaskForm = ({fetchTasks,isDialogOpen,setIsDialogOpen,task}) =
       console.log(error);
     }
   }
-
   return (
     <Dialog open={isDialogOpen}> 
         <DialogTitle>Edit Task</DialogTitle>
